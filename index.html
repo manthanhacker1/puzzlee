@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Granted</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card" id="game-card">
+    <h2 id="title">Level 1: Verification</h2>
+    <p id="description">To proceed, enter the secret passkey.</p>
+    
+    <div id="interactive-area">
+      <input type="text" id="answer-input" placeholder="Type here...">
+      <button onclick="checkAnswer()">Submit</button>
+    </div>
+
+    <p id="feedback"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
